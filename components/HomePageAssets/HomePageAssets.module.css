@@ -1,0 +1,725 @@
+.container {
+  width: 85%;
+  height: auto;
+  margin: auto;
+  margin-top: 5rem;
+  border-radius: 10px;
+  padding-bottom: 20px;
+  padding-top: 1px;
+  padding: 10px;
+  margin-bottom: 8rem;
+}
+
+.container img {
+  width: 90%;
+  margin-left: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+transform: translateX(-1rem);
+}
+.container h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 37px;
+  /* identical to box height */
+  margin-left: 20px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+
+  color: #20212c;
+}
+.container p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 30px;
+  /* or 150% */
+
+  margin-left: 20px;
+
+  color: #464647;
+}
+
+.downloadPlayButton {
+  width: 100%;
+  background-color: aqua;
+}
+.ourMission {
+  width: 100%;
+  height: auto;
+  background: #2a2b38;
+  background-image: url(/assets/images/MaskGroup.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ourMissionLight {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  background-image: url(/assets/images/MaskGroup.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.ourMissionCard {
+  width: 100%;  
+  position: relative;
+  height: 300px;
+  background: #20212c;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.55);
+}
+.ourMissionCardLight {
+  width: 100%;
+  position: relative;
+  height: 300px;
+  background: #FFFFFF;
+  border-radius: 10px;
+ 
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 2px 5px rgb(149, 149, 149);
+}
+.ourMissionCard p:nth-child(1) {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+  /* identical to box height */
+  margin-left: 30px;
+
+  color: #8184a9;
+}
+.ourMissionCardLight p:nth-child(1) {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+  /* identical to box height */
+  margin-left: 30px;
+
+  color: #9B9B9C;
+}
+.ourMissionCardHeader {
+  padding: 20px;
+  position: absolute;
+  margin-top: 120px;
+}
+.ourMissionCardHeader h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+}
+.ourMissionCardHeader p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+padding-top: 20px;
+  color: #bfbbbb;
+}
+.ourMissionCardHeader h2 > span {
+  padding: 2px;
+  background: #32e4bf;
+  border-radius: 5px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+  /* identical to box height */
+  color: #20212c;
+}
+.ourMissionTitle {
+  width: 100%;
+  text-align: center;
+  padding-top: 5rem;
+ 
+}
+.ourMissionTitle h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 37px;
+  line-height: 55px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+.ourMissionTitle p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #bfbbbb;
+}
+.whyPlayatVirtuePoker {
+  width: 100%;
+  height: auto;
+  background: #20212c;
+}
+.whyPlayatVirtuePokerLight {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+}
+.whyPlayatVirtuePokerCard {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background: linear-gradient(126.77deg, #32e4bf 0.57%, #00d1ff 99.42%);
+  border-radius: 10px;
+
+  margin-bottom: 3rem;
+}
+.whyPlayatVirtuePokerTitle {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 55px;
+  text-align: center;
+
+  color: #ffffff;
+  padding-top: 5rem;
+}
+.whyPlayatVirtuePokerCardImage {
+  position: absolute;
+  top: -5rem;
+}
+.whyPlayatVirtuePokerCardTitle {
+  position: relative;
+  top: 5rem;
+  padding: 1rem;
+}
+.whyPlayatVirtuePokerCardTitle h2 {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #20212c;
+  margin-bottom: 1rem;
+}
+
+.whyPlayatVirtuePokerCardTitle p {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  /* line-height: 30px; */
+  /* or 150% */
+
+  color: #464647;
+}
+.CryptoCurrencies {
+  width: 100%;
+  height: auto;
+  position: relative;
+  background: #2a2b38;
+  background-image: url(/assets/images/MaskGroup.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.CryptoCurrenciesLight {
+  width: 100%;
+  height: auto;
+  position: relative;
+  background: #ffffff;
+  background-image: url(/assets/images/MaskGroup.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.CryptoCurrencies__arrow {
+  width: 90%;
+  height: 188.09px;
+  background: linear-gradient(126.77deg, #f93bfd 0.57%, #fcb97f 99.42%);
+  border-radius: 10px;
+}
+.CryptoCurrencies__arrow__icon {
+  padding-top: 30px;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.CryptoCurrencies__arrow__icon h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #20212c;
+  margin-top: 15px;
+}
+.CryptoCurrencies__title {
+  padding: 5rem 0;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 55px;
+  /* identical to box height */
+  color: #ffffff;
+}
+.CryptoCurrencies__arrow2 {
+  width: 95%;
+  height: 91.71px;
+  margin-bottom: 1.2rem;
+  background: #20212c;
+  border-radius: 10px;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+}
+.CryptoCurrencies__arrow2 img {
+  width: 80%;
+  margin: auto;
+  padding-top: 10%;
+}
+.CryptoCurrencies__arrow3 {
+  width: 90%;
+  height: 188.95px;
+
+  background: #20212c;
+  border-radius: 10px;
+}
+.line {
+  background-image: url("/assets/images/Line13.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+  content: "";
+  height: 350px;
+  width: 100px;
+  position: absolute;
+  left: 49.4%;
+  top: 10%;
+}
+.line:nth-child(2) {
+  left: 49.4%;
+  top: 55%;
+}
+.Press {
+  width: 100%;
+  height: auto;
+  background: #20212c;
+  padding-left: 15rem;
+  padding-right: 15rem;
+  padding-top: 10rem;
+}
+.PressLight {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  padding-left: 15rem;
+  padding-right: 15rem;
+  padding-top: 10rem;
+}
+.PressItem {
+  width: 80%;
+  height: 100px;
+  background: #2a2b38;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.PressItem img {
+  width: 90%;
+  margin: auto;
+}
+
+.NewsLetter {
+  width: 100%;
+  height: 227px;
+  margin-top: 5rem;
+  background: linear-gradient(91.6deg, #32e4bf 0%, #21a1de 81.22%);
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  margin-bottom: 5rem;
+}
+.PressTitle {
+  width: 100%;
+  margin-bottom: 5rem;
+}
+.PressTitle h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 39px;
+  line-height: 55px;
+  /* identical to box height */
+  text-align: center;
+  color: #ffffff;
+}
+.NewsLetterTitle {
+  width: 100%;
+  padding-top: 2rem;
+  margin-bottom: 2rem;
+}
+.NewsLetterTitle h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+  /* identical to box height */
+  text-align: center;
+
+  color: #ffffff;
+}
+.NewsLetterForm {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.NewsLetterForm form {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.NewsLetterForm input:nth-child(1) {
+  width: 40%;
+  height: 55px;
+  margin-right: 1rem;
+  background: #ffffff;
+  border: 1px solid #aeaeae;
+  border-radius: 5px;
+}
+.NewsLetterForm select {
+  width: 30%;
+  height: 55px;
+  background: #ffffff;
+  border: 1px solid #aeaeae;
+  border-radius: 5px;
+  margin-right: 1rem;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  color: #444444;
+}
+.NewsLetterForm input[type="submit"] {
+  width: 15%;
+  height: 55px;
+  background: #20212c;
+  border: 1px solid #20212c;
+  border-radius: 5px;
+  font-family: "montserrat";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 18px;
+  color: #ffffff;
+}
+@media (max-width: 890px) {
+  .whyPlayatVirtuePokerContainer {
+    padding: 2rem !important;
+  }
+  .CryptoCurrencies__left {
+    padding: 1rem !important;
+  }
+  .CryptoCurrencies__right {
+    padding: 1rem !important;
+  }
+  .Press {
+    padding: 1rem !important;
+  }
+  .PressLight{
+    padding: 1rem !important;
+
+  }
+
+  .NewsLetterForm form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .NewsLetter {
+    width: 100%;
+    height: auto;
+    margin-top: 5rem;
+    background: linear-gradient(91.6deg, #32e4bf 0%, #21a1de 81.22%);
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    margin-bottom: 5rem;
+  }
+  .NewsLetterForm input:nth-child(1) {
+    width: 90%;
+    height: 55px;
+    /* margin-right: 1rem; */
+    background: #ffffff;
+    border: 1px solid #aeaeae;
+    border-radius: 5px;
+  }
+  .NewsLetterForm select {
+    width: 90%;
+    height: 55px;
+    background: #ffffff;
+    border: 1px solid #aeaeae;
+    border-radius: 5px;
+    /* margin-right: 1rem; */
+
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #444444;
+  }
+  .NewsLetterForm input[type="submit"] {
+    width: 90%;
+    height: 55px;
+    background: #20212c;
+    border: 1px solid #20212c;
+    border-radius: 5px;
+    font-family: "montserrat";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 18px;
+    color: #ffffff;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .whyPlayatVirtuePokerContainer {
+    padding: 5rem !important;
+  }
+  .CryptoCurrencies__left {
+    padding-left: 1rem;
+  }
+  .CryptoCurrencies__right {
+    padding-right: 1rem;
+  }
+}
+@media (max-width: 915px) {
+  .line {
+    display: none;
+  }
+  .Press {
+    padding: 5rem !important;
+  }
+  .whyPlayatVirtuePokerCard:nth-child(1) {
+    margin-top: 5rem;
+  }
+  .ourMissionCardHeader p {
+    font-size: 1rem;
+  }
+  .CryptoCurrencies__left {
+    padding-left: 1rem !important;
+  }
+  .CryptoCurrencies__right {
+    padding-right: 1rem !important;
+  }
+}
+
+@media (max-width: 450px) {
+  .container {
+    width: 100%;
+  }
+  .whyPlayatVirtuePokerContainer {
+    padding: 2rem !important;
+  }
+  .ourMissionCardContainer {
+    padding: 1rem !important;
+    padding-bottom: 5rem !important;
+  }
+  .Press {
+    padding: 2rem !important;
+  }
+  .CryptoCurrencies__arrow__icon h3 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+    color: #20212c;
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 500px) {
+  .ourMissionTitle h2 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 55px;
+    /* identical to box height */
+  
+    text-align: center;
+  
+    color: #ffffff;
+  }
+  .ourMissionTitle p {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+  
+    color: #bfbbbb;
+  }
+  .ourMissionCard{
+    height: 360px;
+  }
+  .ourMissionCardLight{
+    height: 360px;
+
+  }
+
+  .container{
+    margin-top: -1px !important;
+    
+  }
+
+  .container h2 {
+ 
+    font-size: 18px !important;
+    line-height: 25px;
+  }
+
+  .advgTextMob{
+    line-height: 40px !important;
+    margin-bottom: 20px;
+    
+  }
+
+  .whyPlayMob{
+    line-height: 20px !important;
+    font-size: 25px !important;
+  }
+
+  .whyPlayatVirtuePokerCardTitle h2 {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #20212c;
+    margin-bottom: 1rem;
+  }
+
+  .whyPlayatVirtuePokerCardTitle p {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    /* line-height: 30px; */
+    /* or 150% */
+  
+    color: #464647;
+  }
+
+  .crpMobText{
+    font-size: 26px !important;
+    margin-bottom: -3rem ;
+  }
+
+  .pressTextMob{
+    font-size: 27px !important;
+    margin-bottom: -5rem !important;
+  }
+
+  .NewsLetterTitle {
+    width: 100%;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .NewsLetterTitle h2 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+    text-align: center;
+  
+    color: #ffffff;
+  }
+
+  .NewsLetterForm input:nth-child(1) {
+    width: 80%;
+    height: 45px;
+    margin-right: 1rem;
+    background: #ffffff;
+    border: 1px solid #aeaeae;
+    border-radius: 5px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-bottom: 20px;
+  }
+
+  .NewsLetterForm select {
+    width: 80%;
+    height: 45px;
+    background: #ffffff;
+    border: 1px solid #aeaeae;
+    border-radius: 5px;
+    margin-right: 1rem;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  
+  
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #444444;
+  }
+
+
+  .NewsLetterForm input[type="submit"] {
+    width: 80%;
+    height: 45px;
+    background: #20212c;
+    border: 1px solid #20212c;
+    border-radius: 5px;
+    font-family: "montserrat";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 18px;
+    color: #ffffff;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-bottom: 20px;
+  }
+
+}

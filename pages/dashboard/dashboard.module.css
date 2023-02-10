@@ -1,0 +1,2486 @@
+.container {
+  width: calc(100%-150px);
+  height: auto;
+  background-color: #20212c;
+  background-image: url(/assets/images/hero-bg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 1px 0;
+  margin-left: 150px;
+  min-height: 100vh;
+  /* z-index: 5; */
+}
+
+.containerLight {
+  width: calc(100%-150px);
+  height: auto;
+  background-color: #ffffff;
+  background-image: url(/assets/images/hero-bg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 1px 0;
+  margin-left: 150px;
+  min-height: 100vh;
+  /* z-index: 5; */
+}
+.headerTableRow {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  flex-direction: column;
+}
+.headerTableCell {
+  position: relative;
+  top: 100px;
+  text-align: center;
+}
+.headerTableCell2 {
+  z-index: 9;
+  position: relative;
+  top: -15rem;
+  left: -2rem;
+}
+.DownloadPlayButtonContainer {
+  padding-right: 2rem;
+}
+/* .headerTableRow .headerTableCell span img {
+  position: relative !important;
+  top: 110px !important;
+  left: 70px;
+} */
+.headerTableCell h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 61px;
+  text-align: center;
+
+  color: #ffffff;
+  position: relative;
+  /* left: 70px; */
+}
+.headerTableCell h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 67px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #32e4bf;
+  position: relative;
+  /* left: 70px; */
+}
+.Nfts {
+  width: 100%;
+  height: auto;
+  background: #20212c;
+  background-image: url(/assets/images/MaskGroup.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* padding-bottom: 2.5rem; */
+}
+.NftsLight {
+  width: 100%;
+  height: auto;
+  background: #ffff;
+  background-image: url(/assets/images/MaskGroup.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* padding-bottom: 2.5rem; */
+}
+
+.test {
+  width: calc(100%-150px);
+  margin-left: 150px;
+  height: auto;
+  background: #20212c;
+  background-image: url(/assets/images/MaskGroup.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* padding-bottom: 2.5rem; */
+}
+
+.testLight {
+  width: calc(100%-150px);
+  margin-left: 150px;
+  height: auto;
+  background: #ffffff;
+  background-image: url(/assets/images/MaskGroup.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* padding-bottom: 2.5rem; */
+}
+.NftsGrids {
+  padding-bottom: 2.5rem;
+}
+.NftsHeader {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 10rem;
+  flex-direction: column;
+}
+.NftsHeaderLight {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 10rem;
+  flex-direction: column;
+}
+.NftsHeader p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* or 150% */
+  padding: 0 5rem 0 0;
+  margin-top: 30px;
+  color: #bfbbbb;
+}
+.NftsHeaderLight p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* or 150% */
+  padding: 0 5rem 0 0;
+  margin-top: 30px;
+  color: #444444;
+}
+.NftsHeaderh2 {
+  margin-top: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.NftsData {
+  width: 80%;
+  margin: auto;
+  padding: 0 3rem;
+  padding-top: 10rem;
+}
+.NftsData h1 {
+  text-align: center;
+  color: #ffff;
+  font-size: 35px;
+  padding-bottom: 2rem;
+}
+.NftsData h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 30px;
+  text-align: left;
+  color: #ffffff;
+}
+.NftsData h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: left;
+  color: #32e4bf;
+  margin: 2.5rem 0;
+}
+.NftsData p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* or 150% */
+  padding: 0 5rem 0 0;
+  color: #bfbbbb;
+}
+.NftsHeaderh2 img {
+  background: #d9d9d9;
+  box-shadow: 0px 0px 20px rgba(50, 228, 191, 0.5);
+  border-radius: 10px;
+  margin-right: 30px;
+}
+
+.NftsHeaderh2 h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 43px;
+  color: #32e4bf;
+}
+.NftsHeaderh2Light {
+  margin-top: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.NftsHeaderh2Light h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 43px;
+  color: #0e72cc;
+}
+.NftsHeaderh2Light img {
+  background: #d9d9d9;
+  box-shadow: 0px 0px 20px rgba(50, 228, 191, 0.5);
+  border-radius: 10px;
+  margin-right: 30px;
+}
+.NftsBody {
+  /* margin-left: 15rem; */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-left: 150px;
+  text-align: left;
+}
+.NftsBodylight {
+  /* margin-left: 15rem; */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-left: 150px;
+  text-align: left;
+}
+.NftsBody h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: left;
+
+  color: #ffffff;
+  margin: 2.5rem 0;
+}
+.NftsBodylight h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: left;
+
+  color: #000000;
+  margin: 2.5rem 0;
+}
+.NftsBody img {
+  width: 90%;
+  border-radius: 10px;
+}
+.Nftfooter {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.NftfooterLight {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.Nftfooter h3 {
+  margin-left: 10rem;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  padding: 1.8rem 0 1rem 0;
+  color: #ffffff;
+}
+.NftfooterLight h3 {
+  margin-left: 10rem;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  padding: 1.8rem 0 1rem 0;
+  color: #000000;
+}
+.Nftfooter p {
+  margin-left: 10rem;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* or 150% */
+  padding-right: 7rem;
+  color: #bfbbbb;
+}
+.NftfooterLight p {
+  margin-left: 10rem;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* or 150% */
+  padding-right: 7rem;
+  color: #444444;
+}
+.Nftfooter button {
+  margin-left: 10rem;
+}
+.NftfooterLight button {
+  margin-left: 10rem;
+}
+.NftsBody2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 15rem;
+  padding: 0 5rem;
+}
+.NftsBody2Light {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 15rem;
+  padding: 0 5rem;
+}
+.paraContainer {
+  display: flex;
+  flex-direction: row;
+}
+.paraContainerLight {
+  display: flex;
+  flex-direction: row;
+}
+.paraContainer h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 30px;
+  /* or 150% */
+  text-decoration-line: underline;
+  color: #ffffff;
+}
+.paraContainerLight h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 30px;
+  /* or 150% */
+  text-decoration-line: underline;
+  color: #000000;
+}
+.sdas {
+  position: fixed;
+
+  /* width: -webkit-calc(100% - 151px); */
+
+  width: -webkit-calc(100% - 190px);
+  width: calc(100% - 151px);
+
+  height: calc(100% - 65px);
+  height: -webkit-calc(100% - 65px);
+  left: 150px;
+  top: 65px;
+}
+.NftsBody2 h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+
+  color: #ffffff;
+  margin: 1rem 0;
+}
+.NftsBody2Light h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+
+  color: #444444;
+  margin: 1rem 0;
+}
+
+.NftsBody2 p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 30px;
+  color: #bfbbbb;
+}
+.NftsBody2Light p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.NftsBody2 span {
+  display: list-item;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+  color: #bfbbbb;
+  margin-left: 5rem;
+}
+.avatarsTab {
+  width: 80%;
+  display: flex;
+  color: #ffffff;
+  justify-content: center;
+  background: #2a2b38;
+  border-radius: 10px;
+  padding: 1rem 0;
+  margin: auto;
+  margin-bottom: 0.8rem;
+}
+.avatarsTabLight {
+  width: 80%;
+  display: flex;
+  color: #000000;
+  justify-content: center;
+  background: #747474;
+  border-radius: 10px;
+  padding: 1rem 0;
+  margin: auto;
+  margin-bottom: 0.8rem;
+}
+
+.what {
+  color: white;
+}
+
+.whatLight {
+  color: black;
+}
+.avatarsTab h2 {
+  margin-left: 2rem;
+}
+.avatarsTabLight h2 {
+  margin-left: 2rem;
+}
+.avatarsTab h2:hover {
+  cursor: pointer;
+}
+.avatarsTabLight h2:hover {
+  cursor: pointer;
+}
+.avatars {
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  background: #20212c;
+  background-image: url(/assets/images/MaskGroup.png);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-bottom: 5rem;
+}
+
+.avatarsLight {
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  background: #ffffff;
+  background-image: url(/assets/images/MaskGroup.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-bottom: 5rem;
+}
+
+.ImageContainer {
+  width: 80% !important;
+  height: auto;
+  background: #2a2b38;
+  border-radius: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: auto;
+  margin-top: 0;
+}
+
+.ImageContainerLight {
+  width: 80% !important;
+  height: auto;
+  background: #b1b1b1;
+  border-radius: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: auto;
+  margin-top: 0;
+}
+
+.SelectedImageGrid {
+  width: calc(100% - 150px) !important;
+  height: auto;
+  margin-left: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 8rem;
+}
+.SelectedImage {
+  width: 200px;
+  height: 200px;
+  border: 4px solid #32e4bf;
+  box-shadow: 0px 0px 25px rgba(50, 228, 191, 0.8);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1300px) {
+  .avatars {
+    padding-right: 1rem;
+  }
+}
+@media (max-width: 1000px) {
+  .headerTableCell2 {
+    z-index: 9;
+    position: relative;
+    top: -12rem;
+    left: -2rem;
+  }
+}
+@media (max-width: 800px) {
+  .headerTableCell2 {
+    z-index: 9;
+    position: relative;
+    top: -10rem;
+    left: -2rem;
+  }
+  .NftsHeaderh2 {
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .NftsHeaderh2Light{
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .Nftfooter h3 {
+    margin-left: 12rem;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #ffffff;
+  }
+  .Nftfooter p {
+    margin-left: 12rem;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+    padding-right: 2rem;
+    color: #bfbbbb;
+  }
+  .Nftfooter button {
+    margin-left: 12rem;
+  }
+  .NftsBody img {
+    width: 100%;
+    padding: 0 1.5rem;
+  }
+  .NftsBodylight img {
+    width: 100%;
+    padding: 0 1.5rem;
+  }
+  
+}
+@media (max-width: 660px) {
+  .headerTableCell2 {
+    z-index: 9;
+    position: relative;
+    top: -2rem;
+    left: -2rem;
+  }
+}
+@media (max-width: 500px) {
+  .NftsBody2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 1rem;
+    padding: 0rem;
+  }
+  .NftsBody2Light {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 1rem;
+    padding: 0rem;
+  }
+  .headerTableCell2 {
+    z-index: 9;
+    position: relative;
+    top: -2rem;
+    left: -2rem;
+  }
+  .container {
+    width: 100%;
+    height: auto;
+    background-color: #20212c;
+    background-image: url(/assets/images/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 1px 0;
+    margin: 0;
+    /* z-index: 5; */
+  }
+  .headerTableCell h3 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 61px;
+    text-align: center;
+
+    color: #ffffff;
+    position: relative;
+    /* left: 70px; */
+  }
+  .headerTableCell h2 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 67px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #32e4bf;
+    position: relative;
+    /* left: 70px; */
+  }
+  .NftsHeader {
+    margin-left: 1rem;
+    padding-top: 1rem;
+  }
+  .NftsHeader h2{
+    padding-top: 2rem;
+  }
+  .NftsHeaderLight h2{
+    padding-top: 2rem;
+  }
+  .NftsHeader P{
+    padding:0;
+  }
+  .NftsHeaderLight {
+    margin-left: 1rem;
+    padding-top: 1rem;
+  }
+  .NftsHeaderLight p{
+    padding:0;
+  }
+  .NftsBody {
+    margin-left: 10px;
+  }
+  .NftsBodylight {
+    margin-left: 10px;
+  }
+  .Nftfooter h3 {
+    margin-left: 1rem;
+  }
+  .Nftfooter p {
+    margin-left: 1rem;
+  }
+  .NftfooterLight h3 {
+    margin-left: 1rem;
+  }
+  .NftfooterLight p {
+    margin-left: 1rem;
+  }
+  .Nftfooter button {
+    margin-left: 1rem;
+  }
+  .NftfooterLight button {
+    margin-left: 1rem;
+  }
+}
+@media (max-width: 400px) {
+  .headerTableCell2 {
+    z-index: 9;
+    position: relative;
+    top: -2rem;
+    left: -2rem;
+  }
+}
+@media (max-width: 500px) {
+  .SelectedImageGrid {
+    width: 100% !important;
+    height: auto;
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 8rem;
+  }
+  .ImageContainer {
+    width: 80%;
+    height: auto;
+    background: #2a2b38;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 0;
+  }
+  .DownloadPlayButtonContainer {
+    padding-right: 0;
+  }
+}
+@media (max-width: 900px) {
+  .avatarsTab {
+    margin-top: 5rem;
+  }
+}
+
+/* cashier */
+
+.cashBox {
+  width: 330px;
+  height: 270px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(50px);
+  padding: 10px 30px;
+  padding-top: 2rem;
+
+  border-radius: 10px;
+}
+
+.cashBoxLight {
+  width: 330px;
+  height: 270px;
+  background: rgba(118, 118, 118, 0.1);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(50px);
+  padding: 10px 30px;
+  padding-top: 2rem;
+
+  border-radius: 10px;
+}
+
+.cashierText {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 43px;
+  margin-bottom: 2rem;
+
+  color: #32e4bf;
+}
+.cashierTextLight {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 43px;
+  margin-bottom: 2rem;
+
+  color: #0e72cc;
+}
+
+.boxItem {
+  background: #32e4bf;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 12px;
+
+  cursor: pointer;
+  color: #363741;
+
+  text-shadow: 0px 5px 20px rgba(0, 0, 0, 0.25);
+}
+
+.boxItem2 {
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.182);
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 10px;
+
+  cursor: pointer;
+  color: white;
+
+  text-shadow: 0px 5px 20px rgba(0, 0, 0, 0.25);
+}
+
+.balanceText {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 30px;
+  margin-bottom: 20px;
+
+  color: #ffffff;
+}
+
+.balanceTextLight {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 30px;
+  margin-bottom: 20px;
+
+  color: #000000;
+}
+
+.totalBox {
+  margin-top: 17px;
+  width: 710px;
+  height: 200px;
+  background: linear-gradient(91.6deg, #32e4bf 0%, #21a1de 81.22%);
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  padding: 15px 17px;
+}
+
+.blcText {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  margin-bottom: 10px;
+
+  color: #20212c;
+}
+
+.blcText2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 43px;
+  margin-bottom: 30px;
+
+  color: #20212c;
+}
+
+.blcText3 {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 28px;
+
+  color: #20212c;
+}
+
+.avBalanxeText {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  margin: 20px 0;
+
+  color: #ffffff;
+}
+
+.blcCard {
+  width: 270px;
+  height: 180px;
+  background: linear-gradient(270deg, #627eea 0%, #8fa3ef 100%);
+  border-radius: 10px;
+  padding: 12px 20px;
+  margin-right: 10px;
+  display: flex;
+  position: relative;
+}
+
+.blcCardd {
+  width: 245px;
+  height: 140px;
+  background: linear-gradient(270deg, #627eea 0%, #8fa3ef 100%);
+  border-radius: 10px;
+  padding: 20px 20px;
+  margin-right: 10px;
+  display: flex;
+  position: relative;
+}
+
+.blcCardd2 {
+  width: 245px;
+  height: 140px;
+  background: linear-gradient(270deg, #3cd66a 0%, #86da5f 100%);
+  border-radius: 10px;
+  padding: 20px 20px;
+  margin-right: 10px;
+  display: flex;
+  position: relative;
+}
+
+.blcCardd3 {
+  width: 245px;
+  height: 140px;
+  background: linear-gradient(270deg, #e0aa3e 0%, #eaea7f 100%);
+  border-radius: 10px;
+  padding: 20px 20px;
+  margin-right: 10px;
+  display: flex;
+  position: relative;
+}
+
+.blcCard2 {
+  width: 270px;
+  height: 180px;
+  background: linear-gradient(270deg, #3cd66a 0%, #86da5f 100%);
+  border-radius: 10px;
+  padding: 12px 20px;
+  margin-right: 10px;
+  display: flex;
+  position: relative;
+}
+
+.blcCard3 {
+  width: 270px;
+  height: 180px;
+  background: linear-gradient(270deg, #e0aa3e 0%, #eaea7f 100%);
+  border-radius: 10px;
+  padding: 12px 20px;
+  margin-right: 10px;
+  display: flex;
+  position: relative;
+}
+
+.blcCard img {
+  width: 93px;
+  position: absolute;
+  right: 2px;
+  bottom: 8px;
+}
+
+.blcCardd img {
+  width: 75px;
+  position: absolute;
+  right: 2px;
+  bottom: 8px;
+}
+.blcCardd2 img {
+  width: 75px;
+  position: absolute;
+  right: 2px;
+  bottom: 8px;
+}
+.blcCardd3 img {
+  width: 75px;
+  position: absolute;
+  right: 2px;
+  bottom: 8px;
+}
+
+.blcCard2 img {
+  width: 93px;
+  position: absolute;
+  right: 2px;
+  bottom: 8px;
+}
+.blcCard3 img {
+  width: 93px;
+  position: absolute;
+  right: 2px;
+  bottom: 8px;
+}
+
+.blcCard p {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+
+  color: #ffffff;
+}
+.blcCardd p {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+
+  color: #ffffff;
+}
+
+.blcCardd2 p {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+
+  color: #ffffff;
+}
+.blcCardd3 p {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+
+  color: #ffffff;
+}
+.blcCard2 p {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+
+  color: #20212c;
+}
+.blcCard3 p {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+
+  color: #20212c;
+}
+
+.blcCard p:nth-child(2) {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 40px;
+  margin-top: 10px;
+
+  color: #ffffff;
+}
+.blcCardd p:nth-child(2) {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 40px;
+  margin-top: 10px;
+
+  color: #ffffff;
+}
+.blcCardd2 p:nth-child(2) {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 40px;
+  margin-top: 10px;
+
+  color: #ffffff;
+}
+.blcCardd3 p:nth-child(2) {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 40px;
+  margin-top: 10px;
+
+  color: #ffffff;
+}
+.blcCard2 p:nth-child(2) {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 40px;
+  margin-top: 10px;
+
+  color: #20212c;
+}
+.blcCard3 p:nth-child(2) {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 40px;
+  margin-top: 10px;
+
+  color: #20212c;
+}
+
+.blcCard p:nth-child(3) {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  margin-top: 10px;
+  /* identical to box height, or 100% */
+
+  color: #ffffff;
+}
+.blcCardd p:nth-child(3) {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  margin-top: 10px;
+  /* identical to box height, or 100% */
+
+  color: #ffffff;
+}
+
+.blcCardd2 p:nth-child(3) {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  margin-top: 10px;
+  /* identical to box height, or 100% */
+
+  color: #ffffff;
+}
+.blcCardd3 p:nth-child(3) {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  margin-top: 10px;
+  /* identical to box height, or 100% */
+
+  color: #ffffff;
+}
+
+.blcCard2 p:nth-child(3) {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  margin-top: 10px;
+  /* identical to box height, or 100% */
+
+  color: #20212c;
+}
+
+.blcCard3 p:nth-child(3) {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  margin-top: 10px;
+  /* identical to box height, or 100% */
+
+  color: #20212c;
+}
+
+.blcCard button {
+  width: 90px;
+  height: 35px;
+  left: 609px;
+  top: 578px;
+
+  background: #20212c;
+  border-radius: 5px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height, or 112% */
+
+  text-align: center;
+  margin-right: 10px;
+  margin-top: 10px;
+
+  color: #ffffff;
+}
+
+.blcCard2 button {
+  width: 90px;
+  height: 35px;
+  left: 609px;
+  top: 578px;
+
+  background: #20212c;
+  border-radius: 5px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height, or 112% */
+
+  text-align: center;
+  margin-right: 10px;
+  margin-top: 10px;
+
+  color: #ffffff;
+}
+
+.blcCard3 button {
+  width: 90px;
+  height: 35px;
+  left: 609px;
+  top: 578px;
+
+  background: #20212c;
+  border-radius: 5px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height, or 112% */
+
+  text-align: center;
+  margin-right: 10px;
+  margin-top: 10px;
+
+  color: #ffffff;
+}
+
+.cardsFlex {
+  display: flex;
+}
+
+@media screen and (max-width: 1340px) and (min-width: 1200px) {
+  .totalBox {
+    margin-top: 17px;
+    width: 650px;
+    height: 200px;
+    background: linear-gradient(91.6deg, #32e4bf 0%, #21a1de 81.22%);
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    padding: 15px 17px;
+  }
+
+  .cardsFlex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .firstGrid {
+    margin-left: 7rem !important;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .totalBox {
+    margin-top: 17px;
+    width: 570px;
+    height: 200px;
+    background: linear-gradient(91.6deg, #32e4bf 0%, #21a1de 81.22%);
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    padding: 15px 17px;
+  }
+
+  .cardsFlex {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .blcCard {
+    margin-bottom: 10px;
+  }
+
+  .blcCard2 {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .totalBox {
+    margin-top: 17px;
+    width: 380px;
+    height: 200px;
+    background: linear-gradient(91.6deg, #32e4bf 0%, #21a1de 81.22%);
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    padding: 15px 17px;
+  }
+}
+
+.underCard {
+  background: #2a2b38;
+  border-radius: 10px;
+  width: 740px;
+  height: 110px;
+  margin-top: 2rem;
+  padding: 15px 17px;
+}
+
+.underCard p:nth-child(1) {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  text-decoration-line: underline;
+
+  color: #32e4bf;
+}
+
+.underItemFlex {
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+}
+
+.underItemFlex p {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.underItemFlex img {
+  margin-right: 10px;
+}
+
+.depText {
+  margin-top: 10px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  /* or 150% */
+
+  color: #bfbbbb;
+}
+.depTextLight {
+  margin-top: 10px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  /* or 150% */
+
+  color: #444444;
+}
+
+.depDanger {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 30px;
+  margin-top: 15px;
+  /* or 150% */
+
+  color: #ff5454;
+}
+
+.chooseDep {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 30px;
+  margin-top: 65px;
+
+  color: #ffffff;
+}
+.chooseDepLight {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 30px;
+  margin-top: 65px;
+
+  color: #000000;
+}
+
+.chooseDepLight {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 30px;
+  margin-top: 65px;
+
+  color: black;
+}
+.chooseFlex {
+  margin-top: 20px;
+  display: flex;
+}
+
+.chooseDep1 {
+  width: 200px;
+  height: 40px;
+  background: #32e4bf;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.chooseDep2 {
+  width: 200px;
+  height: 40px;
+  background: #363741;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.chooseDep2Light {
+  width: 200px;
+  height: 40px;
+  background: #f2f2f2;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.chooseDep1 img {
+  width: 22px;
+  height: 22px;
+  margin-right: 10px;
+}
+
+.chooseDep2 img {
+  width: 22px;
+  height: 22px;
+  margin-right: 10px;
+}
+
+.chooseDep1 p {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  /* identical to box height */
+
+  color: #20212c;
+}
+
+.chooseDep2 p {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.depContentHole {
+  margin-top: 30px;
+  width: 730px;
+  height: auto;
+  background: #363741;
+  border-radius: 10px;
+  padding: 25px 22px;
+}
+.depContentHoleLight {
+  margin-top: 30px;
+  width: 730px;
+  height: auto;
+  background: #f2f2f2;
+  border-radius: 10px;
+  padding: 25px 22px;
+}
+
+.depContentTitle {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-decoration-line: underline;
+
+  color: #ffffff;
+}
+
+.depContentTitleLight {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-decoration-line: underline;
+
+  color: black;
+}
+
+.depContentHole ul {
+  list-style: number;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+  /* or 167% */
+  margin-left: 20px;
+  margin-top: 10px;
+
+  color: #bfbbbb;
+}
+.depContentHoleLight ul {
+  list-style: number;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+  /* or 167% */
+  margin-left: 20px;
+  margin-top: 10px;
+
+  color: #000000;
+}
+
+.depMsg {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+  margin-top: 10px;
+  /* or 167% */
+
+  color: #bfbbbb;
+}
+.depMsgLight {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+  margin-top: 10px;
+  /* or 167% */
+
+  color: #444444;
+}
+
+.depTextGR {
+  color: #32e4bf;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+}
+
+.depTextGRLight {
+  color: #0e72cc;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+}
+
+.depAddrText {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  margin-top: 40px;
+
+  color: #ffffff;
+}
+.depAddrTextLight {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  margin-top: 40px;
+
+  color: black;
+}
+
+.addrDiv {
+  width: 430px;
+  height: 45px;
+  margin-top: 10px;
+  padding: 10px 15px;
+  position: relative;
+
+  background: #20212c;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.addrDiv p {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height */
+  margin-top: 2px;
+
+  color: #ffffff;
+}
+
+.depLastP {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  margin-top: 12px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+.depLastPLight {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  margin-top: 12px;
+  /* identical to box height */
+
+  color: black;
+}
+
+.lastPcontainer {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 1100px) {
+  .depContentHole {
+    margin-top: 30px;
+    width: 500px;
+    height: auto;
+    background: #363741;
+    border-radius: 10px;
+    padding: 25px 22px;
+  }
+
+  .underCard {
+    width: 500px;
+  }
+}
+
+.vppTextTitle {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-decoration-line: underline;
+
+  color: #ffffff;
+}
+
+.vppTextTitleLight {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-decoration-line: underline;
+
+  color: #000000;
+}
+
+.textToolani {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+  margin-top: 20px;
+  /* or 167% */
+
+  color: #ff5454;
+}
+
+.vppGray {
+  color: #bfbbbb;
+  margin-top: 10px;
+}
+.vppGrayLight {
+  color: #444444;
+  margin-top: 10px;
+}
+
+.vppUl {
+  list-style: disc !important;
+  margin-left: 30px !important;
+}
+
+.copiedText {
+  background-color: #32e4bf;
+  color: black;
+  padding: 0 10px;
+  border-radius: 5px;
+  position: absolute;
+  right: 0;
+}
+
+.withdrawBoxRed {
+  background: rgba(255, 84, 84, 0.3);
+  border: 2px solid #ff5454;
+  border-radius: 10px;
+  width: 730px;
+  height: 260px;
+  padding: 16px 17px;
+  padding-right: 30px;
+}
+.withdrawBoxRedLight {
+  background: rgba(255, 84, 84, 0.3);
+  border: 2px solid #ff5454;
+  border-radius: 10px;
+  width: 730px;
+  height: 260px;
+  padding: 16px 17px;
+  padding-right: 30px;
+}
+
+.TitleRedWithdraw {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  text-decoration-line: underline;
+
+  color: #ffffff;
+}
+.TitleRedWithdrawLight {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  text-decoration-line: underline;
+
+  color: #000000;
+}
+
+.withdrawRedText {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  /* or 167% */
+  margin-top: 15px;
+
+  color: #ffffff;
+}
+
+.withdrawRedTextLight {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  /* or 167% */
+  margin-top: 15px;
+
+  color: #000000;
+}
+
+.flexCheck {
+  display: flex;
+  align-items: center;
+  margin-left: -10px;
+  margin-top: 5px;
+}
+
+.flexCheck p {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  /* or 167% */
+
+  color: #ffffff;
+}
+
+.withdrawRedBoxBtn {
+  width: 240px;
+  height: 40px;
+  background: #ffffff;
+  border-radius: 5px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  margin-top: 10px;
+
+  color: #20212c;
+}
+
+.withdrawRedBoxBtnLight {
+  width: 240px;
+  height: 40px;
+  background: #000000;
+  border-radius: 5px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  margin-top: 10px;
+
+  color: #ffffff;
+}
+
+.whithDrawBoxGrayTitle {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  /* identical to box height */
+
+  text-decoration-line: underline;
+
+  color: #ffffff;
+}
+
+.whithDrawBoxGrayTitleLight {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  /* identical to box height */
+
+  text-decoration-line: underline;
+
+  color: #000000;
+}
+
+.textWithdarww {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+  margin-top: 12px;
+  /* or 167% */
+
+  color: #bfbbbb;
+}
+
+.textWithdarwwLight {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+  margin-top: 12px;
+  /* or 167% */
+
+  color: #444444;
+}
+
+.withdrawLittleText {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  margin-top: 20px;
+  /* or 167% */
+
+  color: #bfbbbb;
+}
+
+.withdrawLittleTextLight {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  margin-top: 20px;
+  /* or 167% */
+
+  color: #444444;
+}
+
+.WithdrawBalanceTitle {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #ffffff;
+  margin-top: 40px;
+}
+
+.WithdrawBalanceTitleLight {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #000000;
+  margin-top: 40px;
+}
+
+.fundsWithdarwDiv {
+  width: 265px;
+  height: 45px;
+  background: #20212c;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 13px 17px;
+}
+
+.fundsWithdarwDiv p {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.addrWithdarwDiv {
+  background: #20212c;
+  border-radius: 5px;
+  height: 45px;
+  width: 500px;
+  margin-top: 10px;
+  padding: 13px 17px;
+}
+.addrWithdarwDiv p {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.withDrawFlexBoxes {
+  display: flex;
+}
+
+.withDrawFlexBoxes > div {
+  margin-right: 12px;
+}
+
+.fundsWithdarwDiv2 {
+  width: 220px;
+  height: 45px;
+  background: #20212c;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 15px 17px;
+}
+
+.fundsWithdarwDiv2 p {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.WithdrawBalanceTitleGR {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  margin-top: 25px;
+
+  color: #32e4bf;
+}
+.WithdrawBalanceTitleGRLight {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  margin-top: 25px;
+
+  color: #0e72cc;
+}
+
+.grDviWithdraw {
+  width: 220px;
+  height: 45px;
+  background: rgba(50, 228, 191, 0.1);
+  border: 2px solid #32e4bf;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 12px 17px;
+}
+
+.grDviWithdrawLight {
+  width: 220px;
+  height: 45px;
+  background: rgba(14, 114, 204, 0.1);
+  border: 2px solid #0e72cc;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 12px 17px;
+}
+
+.grDviWithdraw p {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.lastWithdrawBtn {
+  width: 200px;
+  height: 45px;
+  background: linear-gradient(91.6deg, #32e4bf 0%, #21a1de 81.22%);
+  border-radius: 5px;
+
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #000000;
+  margin-left: 12px;
+  margin-top: 10px;
+}
+
+.lastFlexWithdraw {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 1300px) and (min-width: 1200px) {
+  .withdrawBoxRed {
+    background: rgba(255, 84, 84, 0.3);
+    border: 2px solid #ff5454;
+    border-radius: 10px;
+    width: 650px;
+    height: 260px;
+    padding: 16px 17px;
+    padding-right: 30px;
+  }
+
+  .depContentHole {
+    margin-top: 30px;
+    width: 650px;
+    height: auto;
+    background: #363741;
+    border-radius: 10px;
+    padding: 25px 22px;
+  }
+
+  .withDrawFlexBoxes {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .withDrawFlexBoxes {
+    flex-wrap: wrap;
+  }
+
+  .withdrawBoxRed {
+    background: rgba(255, 84, 84, 0.3);
+    border: 2px solid #ff5454;
+    border-radius: 10px;
+    width: 500px;
+    height: 260px;
+    padding: 16px 17px;
+    padding-right: 30px;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .tableTransActions {
+    width: 500px !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .sdas {
+    position: fixed;
+    z-index: 99999;
+    width: 100%;
+    height: calc(100% - 80px);
+    height: -webkit-calc(100% - 80px);
+    left: 0;
+    top: 0;
+  }
+
+  .containerLight {
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    background-image: url(/assets/images/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 1px 0;
+    margin-left: 0px;
+    min-height: 100vh;
+    /* z-index: 5; */
+  }
+  .headerTableCell{
+    margin-top: 4rem;
+  }
+  .headerTableCell h3 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 61px;
+    text-align: center;
+
+    color: #ffffff;
+    position: relative;
+    /* left: 70px; */
+  }
+  .headerTableCell h2 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #32e4bf;
+    position: relative;
+    /* left: 70px; */
+  }
+
+  .milad {
+    width: 250px !important;
+    display: block !important;
+    position: relative;
+    left: 43%;
+    transform: translateX(-50%);
+    margin-top: 4rem;
+  }
+
+  .test {
+    width: 100%;
+    margin-left: 0px;
+    height: auto;
+    background: #20212c;
+    background-image: url(/assets/images/MaskGroup.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* padding-bottom: 2.5rem; */
+  }
+  .testLight {
+    width: 100%;
+    margin-left: 0;
+    height: auto;
+    background: #ffffff;
+    background-image: url(/assets/images/MaskGroup.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* padding-bottom: 2.5rem; */
+  }
+
+  .totalBox {
+    margin-top: 17px;
+    width: 340px;
+    height: 200px;
+    background: linear-gradient(91.6deg, #32e4bf 0%, #21a1de 81.22%);
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    padding: 15px 17px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .blcText3 {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 28px;
+
+    color: #20212c;
+  }
+
+  .cashBox {
+    width: 330px;
+    height: 270px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(50px);
+    padding: 10px 30px;
+    padding-top: 2rem;
+    margin-right: 5rem;
+
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .cashBoxLight {
+    width: 330px;
+    height: 270px;
+    background: rgba(118, 118, 118, 0.1);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(50px);
+    padding: 10px 30px;
+    padding-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 10px;
+  }
+
+  .firstGrid {
+    margin-left: 0 !important;
+    margin-bottom: 30px;
+  }
+
+  .cashierText {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 43px;
+    margin-bottom: 2rem;
+    text-align: center;
+
+    color: #32e4bf;
+  }
+  .cashierTextLight {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 43px;
+    margin-bottom: 2rem;
+    text-align: center;
+
+    color: #0e72cc;
+  }
+
+  .blcCard {
+    width: 95%;
+    height: 180px;
+    background: linear-gradient(270deg, #627eea 0%, #8fa3ef 100%);
+    border-radius: 10px;
+    padding: 12px 20px;
+    margin-right: 10px;
+    display: flex;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .blcCard2 {
+    width: 95%;
+    height: 180px;
+    background: linear-gradient(270deg, #3cd66a 0%, #86da5f 100%);
+    border-radius: 10px;
+    padding: 12px 20px;
+    margin-right: 10px;
+    display: flex;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .blcCard3 {
+    width: 95%;
+    height: 180px;
+    background: linear-gradient(270deg, #e0aa3e 0%, #eaea7f 100%);
+    border-radius: 10px;
+    padding: 12px 20px;
+    margin-right: 10px;
+    display: flex;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .depContentHole {
+    margin-top: 30px;
+    width: 350px;
+    height: auto;
+    background: #363741;
+    border-radius: 10px;
+    padding: 25px 22px;
+    margin-bottom: 70px;
+  }
+  .depContentHoleLight {
+    margin-top: 30px;
+    width: 350px;
+    height: auto;
+    background: #f2f2f2;
+    border-radius: 10px;
+    padding: 25px 22px;
+  }
+
+  .addrDiv {
+    width: 300px;
+    height: 45px;
+    margin-top: 10px;
+    padding: 10px 15px;
+    position: relative;
+
+    background: #20212c;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .addrDiv p {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 20px;
+    /* identical to box height */
+    margin-top: 2px;
+
+    color: #ffffff;
+  }
+
+  .withdrawBoxRed {
+    background: rgba(255, 84, 84, 0.3);
+    border: 2px solid #ff5454;
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    padding: 16px 17px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+  }
+
+  .addrWithdarwDiv {
+    background: #20212c;
+    border-radius: 5px;
+    height: 68px;
+    width: 100%;
+    margin-top: 10px;
+    padding: 18px 25px;
+  }
+  .addrWithdarwDiv p {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    line-break: anywhere;
+
+    /* identical to box height */
+
+    color: #ffffff;
+  }
+
+  .withdrawBoxRedLight {
+    background: rgba(255, 84, 84, 0.3);
+    border: 2px solid #ff5454;
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    padding: 16px 17px;
+    padding-right: 30px;
+  }
+
+  .tableTransActions {
+    width: 100% !important;
+    margin-bottom: 50px;
+  }
+}

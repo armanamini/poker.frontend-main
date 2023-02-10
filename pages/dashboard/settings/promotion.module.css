@@ -1,0 +1,639 @@
+.promo {
+  margin-left: 150px;
+  width: calc(100% -150px);
+  height: auto;
+  background: #20212c;
+  background-image: url(/assets/images/MaskGroup.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.promoLight {
+  margin-left: 150px;
+  width: calc(100% -150px);
+  height: auto;
+  background: #ffffff;
+  background-image: url(/assets/images/MaskGroup.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.promoHead h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+  /* identical to box height */
+
+  text-align: left;
+  margin: 2rem 0 2rem 0;
+
+  color: #ffffff;
+}
+.promoSwitch {
+  width: 100%;
+  padding: 0 5rem;
+  height: 60px;
+  background: #2a2b38;
+  border: 1px solid #4d4d4d;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #ffffff;
+}
+.promoSwitch:hover {
+  cursor: pointer;
+  background: linear-gradient(91.6deg, #32e4bf 0%, #21a1de 81.22%);
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+.promoBodyCard {
+  width: 300px;
+  height: auto;
+}
+.promoBody {
+  margin-top: 2rem;
+  padding: 0 5rem;
+  display: flex;
+  justify-content: center;
+  padding: 5rem;
+}
+.promoheadDiv {
+  width: 312px;
+  height: 180px;
+  background: linear-gradient(270deg, #627eea 0%, #8fa3ef 100%);
+  border-radius: 10px;
+  margin-right: 20px;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.promoheadDiv2 {
+  width: 312px;
+  height: 180px;
+  background: linear-gradient(270deg, #cb4343 0%, #ff5a5a 100%);
+  border-radius: 10px;
+  position: relative;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.promoheadDiv3 {
+  width: 312px;
+  height: 180px;
+  background: linear-gradient(270deg, #32e4bf 0%, #03ffd2 100%);
+  border-radius: 10px;
+  position: relative;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.promoheadDiv4 {
+  width: 312px;
+  height: 180px;
+  background: linear-gradient(270deg, #e0aa3e 0%, #f9f295 100%);
+  border-radius: 10px;
+  position: relative;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.myStatsDiv {
+  width: 312px;
+  height: 140px;
+  margin-right: 5px;
+  background: #2a2b38;
+  border-radius: 10px;
+}
+.promoBodyDiv {
+  width: 648px;
+  height: 422px;
+  margin-right: 5px;
+  background: #2a2b38;
+  border-radius: 10px;
+}
+.The_GlobalDiv {
+  width: 1320px;
+  height: 255px;
+  background: linear-gradient(91.6deg, #32e4bf 0%, #21a1de 81.22%);
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+.promoHead {
+  margin-top: 5rem;
+  margin-bottom: 2.5rem;
+  margin-left: -22rem;
+}
+.Games_performance {
+  margin: 2.5rem 0;
+}
+.promoBtn {
+  width: 104px;
+  height: 38px;
+  color: #ffffff;
+  margin-left: 5px;
+  margin-top: 5px;
+  background: #20212c;
+  border-radius: 5px;
+}
+.promoheadDivimg {
+  width: 100%;
+  position: absolute;
+  text-align: start;
+  padding: 0 1rem;
+  padding-bottom: 1rem;
+}
+.promoheadDivimg h2 {
+  margin: 0;
+  text-align: start;
+}
+.myStatsDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 1rem;
+}
+.myStatsDiv h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  /* identical to box height, or 100% */
+
+  color: #ffffff;
+}
+.myStatsDiv p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  /* identical to box height, or 100% */
+
+  color: #a5a8cd;
+}
+.promoBodyDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.The_GlobalDiv {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.myStatsInput {
+  width: 400px;
+  height: 55px;
+  margin-right: 2rem;
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+
+  background: #303140;
+  border: 1px solid #535353;
+  border-radius: 5px;
+}
+.myStatsInputLight {
+  width: 400px;
+  height: 55px;
+  margin-right: 2rem;
+  color: black;
+  padding: 10px;
+  font-size: 18px;
+
+  background: #F0EFEF;
+  border: 1px solid #535353;
+  border-radius: 5px;
+}
+.myStatsInputerror {
+  width: 400px;
+  height: 55px;
+  margin-right: 2rem;
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+
+  background: #303140;
+  border: 1px solid red;
+  border-radius: 5px;
+}
+.myStatsInputerrorLight {
+  width: 400px;
+  height: 55px;
+  margin-right: 2rem;
+  color: black;
+  padding: 10px;
+  font-size: 18px;
+
+  background: #F0EFEF;
+  border: 1px solid red;
+  border-radius: 5px;
+}
+
+
+.myStatsInput::placeholder{
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+}
+.myStatsTextArea {
+  width: 835px;
+  height: 85px;
+  color: white;
+  background: #303140;
+  border: 1px solid #535353;
+  border-radius: 5px;
+
+}
+.myStatsTextAreaError {
+  width: 835px;
+  height: 150px;
+
+  background: #303140;
+  border: 1px solid red;
+  border-radius: 5px;
+
+}
+
+.myStatsLabel{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 35px;
+/* identical to box height, or 194% */
+color: #FFFFFF;
+
+
+}
+.myStatsLabelLight{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 35px;
+/* identical to box height, or 194% */
+color: #000000;
+
+
+}
+.inputControl{
+  display: flex;
+  flex-direction: column;
+}
+.myStatsLabel2{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+margin-top: 5px;
+margin-left: 50px;
+color: #9C9C9C;
+}
+
+.myStatsLabel2{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+margin-top: 5px;
+margin-left: 50px;
+color: #9C9C9C;
+}
+.inputControl img{
+  width: 35px;
+height: 35px;
+margin-right: 0.8rem;
+}
+.myStatsInput2{
+  width: 380px;
+  height: 55px;
+  margin-right: 1rem;
+  background: #303140;
+  border: 1px solid #535353;
+  border-radius: 5px;
+}
+
+.myStatsInput3{
+  /* width: 315px; */
+  height: 55px;
+  margin-right: 1rem;
+  background: #303140;
+  border: 1px solid #535353;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+}
+.myStatsInputError{
+  width: 315px;
+  height: 55px;
+  margin-left: 1rem;
+  background: #303140;
+  border: 1px solid red;
+  border-radius: 5px;
+
+}
+
+@media (max-width:1100px) {
+  .myStatsInput {
+    width: 350px;
+    height: 55px;
+    margin-right: 2rem;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+  
+    background: #303140;
+    border: 1px solid #535353;
+    border-radius: 5px;
+  }
+  .myStatsTextArea {
+    width: 760px;
+    height: 180px;
+    color: white;
+    background: #303140;
+    border: 1px solid #535353;
+    border-radius: 5px;
+  }
+  .myStatsInput3{
+    width: 250px;
+    height: 55px;
+    margin-left: 1rem;
+    background: #303140;
+    border: 1px solid #535353;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+  }
+}
+@media (max-width:900px) {
+  .myStatsInput {
+    width: 300px;
+    height: 55px;
+    margin-right: 2rem;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    background: #303140;
+    border: 1px solid #535353;
+    border-radius: 5px;
+  }
+  .myStatsTextArea {
+    width: 660px;
+    height: 180px;
+    color: white;
+    background: #303140;
+    border: 1px solid #535353;
+    border-radius: 5px;
+  }
+}
+@media (max-width:840px) {
+  .myStatsInput {
+    width: 300px;
+    height: 55px;
+    margin-right: 2rem;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    background: #303140;
+    border: 1px solid #535353;
+    border-radius: 5px;
+  }
+  .myStatsTextArea {
+    width: 600px;
+    height: 180px;
+    color: white;
+    background: #303140;
+    border: 1px solid #535353;
+    border-radius: 5px;
+  }
+}
+@media (max-width:750px) {
+  .myStatsInput {
+    width: 300px;
+    height: 55px;
+    margin-right: 2rem;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    background: #303140;
+    border: 1px solid #535353;
+    border-radius: 5px;
+  }
+  .myStatsTextArea {
+    width: 400px;
+    height: 180px;
+    color: white;
+    background: #303140;
+    border: 1px solid #535353;
+    border-radius: 5px;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .promo {
+    margin-left: 0px;
+    width: 100%;
+    height: auto;
+    background: #20212c;
+    background-image: url(/assets/images/MaskGroup.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .promoLight {
+    margin-left: 0px;
+    width: 100%;
+    height: auto;
+    background: #ffffff;
+    background-image: url(/assets/images/MaskGroup.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .myStatsTextArea {
+    width: 342px;
+    height: 85px;
+    color: white;
+    background: #303140;
+    border: 1px solid #535353;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
+
+  .promoHead h2 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    /* identical to box height */
+  
+    text-align: center;
+    /* margin: 2rem 0 2rem 0; */
+    margin-left: 20rem;
+  
+    color: #ffffff;
+  }
+
+  .inputControl{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+  .myStatsInput {
+    width: 90%;
+    height: 55px;
+    margin-right: 2rem;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+  
+    background: #303140;
+    border: 1px solid #535353;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .myStatsInputerror {
+    width: 90%;
+    height: 55px;
+    margin-right: 2rem;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+  
+    background: #303140;
+    border: 1px solid red;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  
+.myStatsLabel{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 35px;
+/* identical to box height, or 194% */
+color: #FFFFFF;
+margin-left: 30px;
+
+margin-right: auto;
+margin-bottom: 10px;
+
+
+}
+.myStatsLabelLight{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 35px;
+margin-bottom: 10px;
+/* identical to box height, or 194% */
+color: #000000;
+margin-left: 30px;
+
+margin-right: auto;
+
+
+}
+
+.imgHidden{
+  display: none;
+}
+
+.myStatsInput3{
+  /* width: 315px; */
+  height: 55px;
+  margin-right: auto;
+  margin-left: auto;
+  background: #303140;
+  border: 1px solid #535353;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  
+}
+
+.myStatsLabel{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 35px;
+/* identical to box height, or 194% */
+color: #FFFFFF;
+margin-left: 40px;
+margin-left: auto;
+margin-right: auto;
+
+
+}
+.myStatsLabelLight{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 35px;
+/* identical to box height, or 194% */
+color: #000000;
+margin-left: auto;
+margin-right: auto;
+
+
+}
+
+.avtMobuke{
+  margin-left: 24rem;
+  width: 100px !important;
+}
+  
+}

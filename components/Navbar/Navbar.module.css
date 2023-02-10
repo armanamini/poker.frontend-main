@@ -1,0 +1,52 @@
+@media (max-width: 917px) {
+  .Logo {
+    margin-left: 0rem !important;
+    margin-right: 8rem !important;
+  }
+}
+
+.nameContainer {
+  width: 100%;
+  font-family: sans-serif;
+}
+
+.name {
+  font-weight: bolder;
+  letter-spacing: 0.2px;
+  color: #32e4bf;
+  font-size: 15px;
+  border-bottom: 1px solid rgb(33, 161, 222);
+}
+
+.appbar {
+  position: fixed !important;
+  z-index: 999999;
+}
+.bar {
+  opacity: 0;
+}
+.menuDrawer {
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  height: 110vh;
+  background-image: url("/assets/images/gradient-bg-1 2.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: #ffff;
+  background-color: #20212C;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-left: 2rem;
+  padding-top: 8rem;
+}
+.menuItem {
+  margin-top: 3rem;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}

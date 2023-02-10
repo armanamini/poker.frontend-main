@@ -1,0 +1,39 @@
+.ScrollToTop{
+    position: fixed;
+    bottom: 12px;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: #1e927b ;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 9999999999999999;
+}
+
+.icon{
+    font-size: 33px !important;
+    animation: scrollToTop 0.2s alternate ease infinite ;
+}
+
+@keyframes scrollToTop {
+    from{
+transform: translateY(2px);
+    }
+    to{
+        transform: translateY(-1px);
+
+    }
+    
+}
+
+
+@media screen and (max-width:500px) {
+    .ScrollToTop{
+        display: none;
+    }
+    
+}

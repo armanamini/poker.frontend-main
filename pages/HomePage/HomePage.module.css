@@ -1,0 +1,562 @@
+.header {
+  width: 100%;
+  height: auto;
+  background-color: #20212c;
+  background-image: url(/assets/images/hero-bg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 1px 0;
+  position: relative;
+  z-index: 5;
+}
+.headerLight {
+  width: 100%;
+  height: auto;
+  background-color: #ffffff;
+  background-image: url(/assets/images/hero-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 1px 0;
+  position: relative;
+  z-index: 5;
+}
+
+.headerTitle {
+  color: white;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 71px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #20212d;
+  margin-top: -4rem;
+
+  padding: 0;
+}
+.headerTitle span:nth-child(1) {
+  display: inline-block;
+  transform: rotate(2.39deg);
+  width: 171px;
+  height: 70px;
+  background: #32e4bf;
+  border-radius: 10px;
+
+  margin-left: -30px;
+}
+.headerTitle span:nth-child(2) {
+  color: #ffff;
+  margin-right: 10px;
+  letter-spacing: 0px;
+}
+.headerTitle span:nth-child(3) {
+  color: #32e4bf;
+}
+.headerH2Title h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 43px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.headerH2Title p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #bfbbbb;
+}
+
+.headerImage {
+  width: 100%;
+  height: 500px;
+  background-image: url(/assets/images/pokerTable.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin: 0 auto;
+  background-color: red;
+}
+
+.body {
+  width: 100%;
+  height: auto;
+  background: #2a2b38;
+  background-image: url(/assets/images/MaskGroup.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-bottom: 5rem;
+
+}
+.bodyLight {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  background-image: url(/assets/images/MaskGroup.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-bottom: 5rem;
+
+}
+.bodyCard {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  margin-top: 30rem;
+  /* padding-top: 2.5rem; */
+  padding-bottom: 2.5rem;
+  background: #20212c;
+  opacity: 0.9;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.55);
+  border-radius: 10px;
+  margin-top: 350px;
+}
+.bodyCardLight {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  margin-top: 30rem;
+  /* padding-top: 2.5rem; */
+  padding-bottom: 2.5rem;
+  background: #ffffff;
+  opacity: 0.9;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.55);
+  border-radius: 10px;
+  margin-top: 350px;
+
+}
+.bodyCardHeader {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.bodyCardAvatar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.bodyCardAvatarTitle h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 37px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+.bodyCardAvatarTitle button {
+  width: 100%;
+  height: 42px;
+  background: #32e4bf;
+  border-radius: 10px;
+  border: none;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  padding: 0 0.5rem;
+  color: #20212c;
+}
+.bodyCardAvatarTitleParagraph {
+  font-family: "montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 30px;
+  color: #ffff;
+  padding: 1.5rem 2rem;
+  padding-left: 0;
+}
+.bodyCardAvatarTitleParagraph div {
+  display: flex;
+  align-items: center;
+}
+.bodyCardHeaderImage {
+  position: absolute;
+  top: -11rem;
+  left: 2.5rem;
+  width: auto;
+  height: auto;
+  background: #32e4bf;
+  opacity: 0.9;
+  border: 4px solid #32e4bf;
+  border-radius: 10px;
+}
+.imageContainer img {
+  margin-left: 1rem !important;
+  margin-top: -5rem !important;
+}
+.bodyH2 {
+  padding-top: 5rem;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 55px;
+
+  text-align: center;
+  /* background-color: red; */
+
+  color: #ffffff;
+}
+.bodyCardAvatarTitle {
+  margin-left: 20px;
+}
+
+.growyourCryptoStack {
+  width: 100%;
+  height: auto;
+  background: #20212c;
+}
+.growyourCryptoStackLight {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+}
+.bodyCardHeaderImage2 {
+  position: absolute !important;
+  top: -11rem !important;
+
+  right: 2.5rem !important;
+}
+@media (max-width: 915px) {
+  .headerTitle {
+    padding: 0 0.5rem;
+  }
+  .headerH2Title {
+    padding: 0 0.5rem;
+  }
+  .growyourCryptoStackGrid {
+    padding: 2rem !important;
+  }
+  .bodyCard {
+    width: 100%;
+    margin-top: 10rem;
+  }
+  .bodyCardHeaderImage {
+    left: 10%;
+
+    top: -5rem !important;
+  }
+  .bodyCardHeader2 {
+    flex-direction: column-reverse !important;
+  }
+}
+@media (max-width: 1266px) {
+  .bodyCardHeaderImage2 {
+    position: relative !important;
+    top: -10rem !important;
+    right: 2.5rem !important;
+    left: -2.5rem;
+  }
+  .bodyCardAvatar {
+    flex-direction: row;
+    padding-left: 2rem;
+  }
+  .bodyCard {
+    width: 100%;
+  }
+  .bodyCardLight {
+    width: 100%;
+  }
+  .bodyCardAvatarTitleParagraph {
+    padding-left: 2rem;
+  }
+}
+@media (max-width: 1000px) {
+  .bodyCard {
+    width: 90%;
+  }
+  .bodyCardLight {
+    width: 90%;
+  }
+  .bodyCardHeaderImage {
+    position: relative;
+    /* left: 50%; */
+  }
+  .bodyCardHeaderImage2 {
+    margin-top: 0rem;
+    padding: 0;
+    left: 2rem;
+  }
+  .bodyCardHeader {
+    flex-direction: column;
+  }
+  .bodyCardAvatarTitle button {
+    font-size: 15px;
+    padding: 0 1rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .DownloadPlayButton {
+    display: flex;
+    justify-content: center;
+  }
+  .headerTitle {
+    font-size: 35px;
+  }
+  .headerH2Title {
+    padding: 0 3rem;
+  }
+}
+@media (max-width: 900px) {
+  .imageContainer img {
+    margin-left: 1rem !important;
+    margin-top: 0 !important;
+  }
+  .headerH2Title h2 {
+    font-size: 25px;
+  }
+  .headerH2Title p {
+    font-size: 18px;
+  }
+  .headerTitle {
+    font-size: 28px;
+  }
+  .headerTitle span:nth-child(1) {
+    width: 100px;
+    height: 70px;
+    margin-right: 5px;
+  }
+}
+@media (max-width: 600px) {
+  .header {
+    background-size: cover;
+    padding: 2rem 0;
+  }
+  .headerLight{
+    background-size: cover;
+    padding: 2rem 0;
+  }
+  .playNowChips {
+    font-size: 14px;
+  }
+  .headerTitle {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+  }
+  .headerTitle span:nth-child(1) {
+    width: 70px;
+    height: 40px;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .headerH2Title h2 {
+    font-size: 18px;
+  }
+  .headerH2Title p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 450px) {
+  .bodyCardHeaderImage {
+    left: 10%;
+
+    top: -5rem;
+  }
+  .bodyCard {
+    width: 100%;
+    margin-top: 13rem;
+
+  }
+  .bodyCardLight {
+    width: 100%;
+    margin-top: 13rem;
+  }
+  .bodyCardAvatar {
+    flex-direction: column;
+    padding: 0 1rem;
+  }
+  .bodyCardAvatarTitleParagraph {
+    padding: 1rem;
+  }
+  .DownlaodBtn {
+    /* width: 100% !important; */
+    padding: 0 1rem;
+  }
+  .DownlaodBtn::hover {
+    padding: 0 5rem;
+  }
+  .bodyCardAvatarTitle h3 {
+    margin: 20px 0;
+  }
+  .bodyCardHeaderImage2 {
+    margin-top: 5rem;
+  }
+  .bodyCardHeader2 {
+    flex-direction: column-reverse;
+    margin-top: 15rem;
+  }
+}
+@media (max-width: 500px) {
+  .headerTitle {
+    width: 100%;
+    font-size: 19px;
+    display: flex;
+    line-height: 25px;
+  }
+  .headerTitle span:nth-child(1) {
+    width: auto;
+    height: auto;
+    padding: 0.4rem;
+    display: flex;
+    margin: auto;
+    /* margin-right: .3rem; */
+  }
+  .headerTitle span:nth-child(2) {
+    margin-right: auto;
+    margin-left: 0;
+  }
+  .headerTitle span {
+    display: flex;
+    margin: auto;
+
+    justify-content: center;
+    align-items: center;
+  }
+  .headerH2Title {
+    padding: 0;
+  }
+  .headerH2Title h2 {
+    line-height: 23px;
+    margin-top: 0;
+    font-weight: 500;
+  }
+  .headerH2Title p {
+    font-size: 16px;
+  }
+  .headerH2Title button {
+    width: 100% !important;
+    font-size: 20px !important;
+  }
+  .imageContainer {
+    margin-top: -2rem;
+  }
+  .btnbtn {
+    display: flex;
+    flex-direction: column;
+  }
+  .eptcontainer {
+    padding: 0 !important;
+  }
+  .bodyCardAvatar img {
+    display: none;
+  }
+  .bodyCardAvatar {
+    flex-direction: row;
+    margin-top: -5rem;
+    
+  }
+  .bodyCardHeaderImage2 {
+    position: relative !important;
+    /* top: -10rem !important; */
+    right: 0;
+  }
+  .bodyCardAvatar2{
+    margin-top: -10rem ;
+  }
+  .bodyCardAvatarTitle{
+    margin-left: 0;
+    /* margin-top: -5rem; */
+  }
+  .DownloadPlayButton{
+    padding-left: 0 !important;
+  }
+  .DownloadPlayButton a {
+    width: 90% !important;
+  }
+  .DownloadPlayButton button {
+    width: 100% !important;
+  }
+  .bodyCardHeaderImage {
+    width: 50%;
+    border: 2px solid #32e4bf;
+  }
+  .bodyCardHeaderImage img {
+    border-radius: 10px;
+  }
+  .bodyH2 h2 {
+    font-size: 25px;
+  }
+}
+
+.DownlaodBtn {
+  /* transition: 3s all !important  ; */
+  transition: 0.5s all !important  ;
+}
+
+.DownlaodBtn:hover {
+  transform: scale(0.9);
+  transition: 0.5s all !important  ;
+}
+
+.pokerrrTable {
+  margin-top: -5rem;
+}
+
+.playNowChips {
+  margin-top: 0.8rem;
+  font-size: 18px;
+}
+
+
+@media screen and (max-width:500px) {
+  .DownlaodBtn {
+   
+    padding: 0 1rem;
+    width: 600px;
+  }
+
+  .headerTitle{
+    margin-top: -6rem;
+   
+  }
+
+  .eranTextMobile{
+    
+    margin-top: -3rem;
+  }
+
+  .playFiatMobile{
+    font-size: 22px !important;
+  }
+
+  .mainTodayTextMob{
+    
+    margin-top: -2rem;
+    line-height: 30px;
+    font-size: 22px !important;
+  }
+
+.mtMob{
+  margin-bottom: -16rem;
+}
+
+.mlMob{
+  margin-left: -8px !important;
+}
+
+
+
+
+  
+}

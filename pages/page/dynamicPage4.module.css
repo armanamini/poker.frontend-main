@@ -1,0 +1,193 @@
+.promo {
+    width: 100%;
+    height: auto;
+    min-height:100vh;
+    background: #20212c;
+    background-image: url(/assets/images/MaskGroup.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    
+  }
+
+  .promoLight {
+    width: 100%;
+    height: auto;
+    min-height:100vh;
+    background: #ffffff;
+    background-image: url(/assets/images/MaskGroup.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    
+  }
+
+
+  .promoHead h2 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    /* identical to box height */
+  
+    text-align: center;
+    margin-top: 10rem ;
+    margin-bottom: 3rem;
+    color: #ffffff;
+  }
+  .promoSwitch {
+    width: 100%;
+    padding: 0 5rem;
+    height: 60px;
+    background: #2a2b38;
+    border: 1px solid #4d4d4d;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+
+  }
+
+  .promoSwitchActive {
+    width: 100%;
+    padding: 0 5rem;
+    height: 60px;
+    background: #2a2b38;
+    border: 1px solid #4d4d4d;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(91.6deg, #32e4bf 0%, #21a1de 81.22%);
+  margin: auto;
+  }
+  .promoSwitch button{
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+
+  }
+
+  .promoSwitchActive button{
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+
+  }
+  .promoSwitch:hover {
+  
+    cursor: pointer;
+ 
+    box-shadow: 3px 5px 25px rgba(129, 129, 129, 0.3);
+    border-radius: 5px;
+  }
+  .promoBodyCard {
+    width: 100%;
+    height: auto;
+    box-shadow: 8px -5px 15px rgb(65, 65, 65);
+    cursor: pointer !important;
+  
+  }
+  .promoBody {
+    margin-top: 2rem;
+    padding: 0 5rem;
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+  }
+  @media (max-width:900px) {
+    .promoSwitch{
+      padding: 0 1rem;
+    }
+  }
+  @media (max-width:600px) {
+    .promoBody {
+      margin-top: 2rem;
+      padding: 0 2rem;
+      display: flex;
+      justify-content: center;
+      /* padding: 5rem; */
+    }
+    .promoSwitch{
+      padding: 0 0.5rem;
+    }
+  }
+  @media (max-width:500px) {
+    .promo {
+      margin-left: 0;
+      padding-top: 50px;
+      width: 100%;
+      height: auto;
+      min-height:100vh;
+      background: #20212c;
+      background-image: url(/assets/images/MaskGroup.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      position: relative;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-direction: column;
+    }
+    .promoLight {
+      margin-left: 0;
+      padding-top: 50px;
+      width: 100%;
+      height: auto;
+      min-height:100vh;
+      background: #ffffff;
+      background-image: url(/assets/images/MaskGroup.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      position: relative;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-direction: column;
+      
+    }
+  
+    .promoBody {
+      margin-top: 2rem;
+  
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /* padding: 5rem; */
+    }
+    .promoSwitch{
+      padding: 0;
+      
+    }
+  }
+
+  @media screen  and (max-width:500px){
+    .mobHidden{
+      display: none !important;
+    }
+
+    .promoBodyCard{
+      margin-bottom: 20px !important;
+    }
+
+  }

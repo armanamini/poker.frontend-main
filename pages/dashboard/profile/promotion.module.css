@@ -1,0 +1,556 @@
+.promo {
+  margin-left: 150px;
+  width: calc(100% -150px);
+  height: auto;
+  background: #20212c;
+  background-image: url(/assets/images/MaskGroup.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+ 
+
+}
+
+.promoLight {
+  margin-left: 150px;
+  width: calc(100% -150px);
+  height: auto;
+  background: #ffffff;
+  background-image: url(/assets/images/MaskGroup.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+ 
+
+}
+
+.promoHead h2 {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 55px;
+  
+  /* identical to box height */
+
+  text-align: left;
+  margin: 2rem 0 2rem 0;
+  margin-left: 2rem;
+  margin-bottom: -1rem;
+
+  color: #ffffff;
+}
+.promoSwitch {
+  width: 100%;
+  padding: 0 5rem;
+  height: 60px;
+  background: #2a2b38;
+  border: 1px solid #4d4d4d;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #ffffff;
+}
+.promoSwitch:hover {
+  cursor: pointer;
+  background: linear-gradient(91.6deg, #32e4bf 0%, #21a1de 81.22%);
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+.promoBodyCard {
+  width: 300px;
+  height: auto;
+}
+.promoBody {
+  margin-top: 2rem;
+  padding: 0 5rem;
+  display: flex;
+  justify-content: center;
+  padding: 5rem;
+}
+.promoheadDiv {
+  width: 312px;
+  height: 180px;
+  background: linear-gradient(270deg, #627eea 0%, #8fa3ef 100%);
+  border-radius: 10px;
+  margin-right: 20px;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.promoheadDiv2 {
+  width: 312px;
+  height: 180px;
+  background: linear-gradient(270deg, #cb4343 0%, #ff5a5a 100%);
+  border-radius: 10px;
+  position: relative;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.promoheadDiv3 {
+  width: 312px;
+  height: 180px;
+  background: linear-gradient(270deg, #32e4bf 0%, #03ffd2 100%);
+  border-radius: 10px;
+  position: relative;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.promoheadDiv4 {
+  width: 312px;
+  height: 180px;
+  background: linear-gradient(270deg, #e0aa3e 0%, #f9f295 100%);
+  border-radius: 10px;
+  position: relative;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.myStatsDiv {
+  width: 312px;
+  height: 140px;
+  margin-right: 5px;
+  background: #2a2b38;
+  border-radius: 10px;
+}
+.promoBodyDiv {
+  width: 648px;
+  height: 422px;
+  margin-right: 5px;
+  background: #2a2b38;
+  border-radius: 10px;
+}
+.The_GlobalDiv {
+  width: 1320px;
+  height: 255px;
+  background: linear-gradient(91.6deg, #32e4bf 0%, #21a1de 81.22%);
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+.promoHead {
+  margin-top: 5rem;
+  margin-bottom: 2.5rem;
+}
+.Games_performance {
+  margin: 2.5rem 0;
+}
+.promoBtn {
+  width: 104px;
+  height: 38px;
+  color: #ffffff;
+  margin-left: 5px;
+  margin-top: 5px;
+  background: #20212c;
+  border-radius: 5px;
+}
+.promoheadDivimg {
+  width: 100%;
+  position: absolute;
+  text-align: start;
+  padding: 0 1rem;
+  padding-bottom: 1rem;
+}
+.promoheadDivimg h2 {
+  margin: 0;
+  text-align: start;
+}
+.myStatsDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 1rem;
+}
+.myStatsDiv h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  /* identical to box height, or 100% */
+
+  color: #ffffff;
+}
+.myStatsDiv p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  /* identical to box height, or 100% */
+
+  color: #a5a8cd;
+}
+.promoBodyDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.The_GlobalDiv {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.myStatsInput {
+  width: 450px;
+  height: 55px;
+  margin-right: 2rem;
+
+  background: #303140;
+  border: 1px solid #535353;
+  border-radius: 5px;
+}
+.myStatsTextArea {
+  width: 960px;
+  height: 180px;
+
+  background: #303140;
+  border: 1px solid #535353;
+  border-radius: 5px;
+}
+.myStatsLabel{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 35px;
+/* identical to box height, or 194% */
+color: #FFFFFF;
+
+}
+.inputControl{
+  display: flex;
+  flex-direction: column;
+}
+.myStatsLabel2{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+margin-top: 5px;
+margin-left: 50px;
+color: #9C9C9C;
+}
+.inputControl img{
+  width: 45px;
+height: 35px;
+margin-right: 5px;
+}
+.myStatsInput2{
+  width: 380px;
+  height: 55px;
+  margin-right: 1rem;
+  background: #303140;
+  border: 1px solid #535353;
+  border-radius: 5px;
+}
+
+.socials{
+  display: flex;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.social{
+  background-color: white;
+  padding: 8px;
+  border-radius: 5px;
+  margin-right: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.socialLight{
+  background-color: black;
+  padding: 8px;
+  border-radius: 5px;
+  margin-right: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.social:hover{
+  background-color: #32E4BF;
+  color: white !important;
+}
+
+.socials:nth-child(2){
+ background: linear-gradient(91.6deg, #32E4BF 0%, #21A1DE 81.22%);;
+}
+
+.profText{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+margin-top: 10px;
+margin-left: 3.3rem;
+
+
+
+color: #FFFFFF;
+}
+
+.profHead{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 27px;
+/* identical to box height */
+margin-top: 20px;
+margin-bottom: 20px;
+
+
+color: #FFFFFF;
+
+}
+.The_GlobalDiv{
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.The_GlobalDiv h3{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 43px;
+  /* identical to box height */
+  
+  
+  color: #20212C;
+}
+.The_GlobalDiv p{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 30px;
+  /* or 150% */
+  
+  
+  color: #2A2B38;
+}
+
+
+.avtImg{
+  width: 140px !important;
+  height: 130px !important;
+  margin-right: 2rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+@media screen and (max-width:500px) {
+  .promo {
+    margin-left: 0px;
+    width: 100%;
+    height: auto;
+    background: #20212c;
+    background-image: url(/assets/images/MaskGroup.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+   
+  
+  }
+
+  .promoLight {
+    margin-left: 0px;
+    width: 100%;
+    height: auto;
+    background: #ffffff;
+    background-image: url(/assets/images/MaskGroup.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+   
+  
+  }
+
+  .The_GlobalDiv{
+ display: none;
+  }
+  .BoxMobile{
+    padding-right: 0 !important;
+    flex-direction: column-reverse !important;
+    
+  }
+
+  .ethADDmOB {
+    width: 300px !important;
+   margin-top: 20px !important;
+    font-size: 12px !important;
+ 
+  
+  }
+
+  .divvMobile{
+    width: 100% !important;
+  }
+  
+
+  .myprofileMob{
+    text-align: center !important;
+    font-size: 27px !important;
+  }
+
+  .avtImg{
+    width: 130px !important;
+    height: 120px !important;
+  
+    margin-left: 3rem !important;
+   
+
+  }
+
+  .promoheadDiv {
+  width: 95%;
+  height: 180px;
+  background: linear-gradient(270deg, #627eea 0%, #8fa3ef 100%);
+  border-radius: 10px;
+  margin-right: 20px;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.promoheadDiv4 {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 180px;
+  background: linear-gradient(270deg, #e0aa3e 0%, #f9f295 100%);
+  border-radius: 10px;
+  position: relative;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+
+.promoheadDiv3 {
+  width: 95%;
+  height: 180px;
+  background: linear-gradient(270deg, #32e4bf 0%, #03ffd2 100%);
+  border-radius: 10px;
+  position: relative;
+  margin-bottom: 20px;
+  margin-left: auto;
+
+  margin-right: auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.promoheadDiv2 {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  height: 180px;
+  background: linear-gradient(270deg, #cb4343 0%, #ff5a5a 100%);
+  border-radius: 10px;
+  position: relative;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.editProBtnMobile{
+  width: 300px !important;
+
+}
+
+.editProBtnMobile button {
+  width: 100% !important;
+
+}
+
+.socials{
+  display: flex;
+  margin-top: 10px;
+  padding-top: 10px;
+
+  position: relative;
+  right: 4.4rem;
+
+ 
+}
+
+.profText{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+margin-top: 10px;
+margin-left: 0.5rem !important;
+text-align: center;
+
+
+
+color: #FFFFFF;
+}
+
+.profHead{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 27px;
+/* identical to box height */
+margin-top: 20px;
+margin-bottom: 20px;
+margin-left: 10px;
+
+
+color: #FFFFFF;
+
+}
+
+.mobCNETER{
+  text-align: center !important;
+  width: 360px !important;
+}
+
+
+  
+}
